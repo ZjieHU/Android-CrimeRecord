@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/menu_item"
+        android:title="add_crime"
+        android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="ifRoom|withText"
+        ></item>
+    <item 
+        android:id="@+id/menu_item_a"
+        android:title="delete_crimes"
+        android:showAsAction="ifRoom"
+        />
+    <item 
+        android:id="@+id/menu_item_cancle_multiple"
+        android:title="Cancle"
+        android:showAsAction="ifRoom"
+        />
+</menu>
